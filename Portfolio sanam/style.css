@@ -200,6 +200,13 @@ section{
     transform: translateY(0);
 }
 }
+.color{
+    color:#ffd100;
+    text-align: left;
+}
+.left{
+    text-align: left;
+}
 
 /* ICONS CSS */
 
@@ -313,7 +320,6 @@ section{
 article{
     display: flex;
     width:10rem;
-    justify-content: space-around;
     gap:0.5rem;
 
 }
@@ -377,7 +383,7 @@ form input, form textarea{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 90vh;
   }
   
   .contact-info-container {
